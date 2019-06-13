@@ -26,7 +26,7 @@ namespace MarsRover.Core
         internal void ChangePosition(double xPos, double yPos)
         {
             var newPosition = new Position(xPos, yPos);
-            Position = newPosition;
+            Position = newPosition + 1;
         }
     }
 }
